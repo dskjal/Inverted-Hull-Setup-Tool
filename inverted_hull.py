@@ -1,10 +1,10 @@
-// BEGIN MIT LICENSE BLOCK //
-//
-// Copyright (c) 2019 dskjal
-// This software is released under the MIT License.
-// http://opensource.org/licenses/mit-license.php
-//
-// END MIT LICENSE BLOCK   //
+#// BEGIN MIT LICENSE BLOCK //
+#//
+#// Copyright (c) 2019 dskjal
+#// This software is released under the MIT License.
+#// http://opensource.org/licenses/mit-license.php
+#//
+#// END MIT LICENSE BLOCK   //
 import bpy
 bl_info = {
     "name" : "Inverted Hull Setup Tool",
