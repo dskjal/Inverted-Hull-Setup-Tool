@@ -62,6 +62,7 @@ def get_material_idx(o):
         
     m.use_nodes = True
     m.use_backface_culling = True
+    m.shadow_method = 'NONE'
 
     nodes = m.node_tree.nodes
     # init nodes
