@@ -9,12 +9,12 @@ import bpy
 bl_info = {
     "name" : "Inverted Hull Setup Tool",
     "author" : "dskjal",
-    "version" : (1, 0),
-    "blender" : (2, 80, 0),
+    "version" : (1, 1),
+    "blender" : (2, 83, 0),
     "location" : "View3D > Sidebar > Inverted Hull",
     "description" : "Setup inverted hull.",
     "warning" : "",
-    "wiki_url" : "https://github.com/dskjal/Rigidbody-Bone",
+    "wiki_url" : "https://github.com/dskjal/Inverted-Hull-Setup-Tool",
     "tracker_url" : "",
     "category" : "Object"
 }
@@ -112,7 +112,7 @@ def remove_inverted_hull(o):
     
     for i in range(len(o.data.materials)):
         if ih_name in o.data.materials[i].name:
-            o.data.materials.pop(index=i, update_data=True)
+            o.data.materials.pop(index=i)
 
 class DSKJAL_OT_RemoveButton(bpy.types.Operator):
     bl_idname = 'dskjal.invertedhullremove'
